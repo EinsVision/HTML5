@@ -29,6 +29,26 @@
         </ol>
 
         <h2>리스트와 테그의 중첩</h2>
-        List는 li를 쓰고 ul이나 ol로 감싸서 사용합니다.
+        List는 li를 쓰고 ul이나 ol로 감싸서 사용합니다.<br>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>이름</th> <th>성별</th> <th>주소</th> <th>회비</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>정창대</td> <td>남</td> <td rowspan="2">서울</td> <td>500</td>
+                </tr>
+                <tr>
+                    <td>정주안</td> <td>남</td>  <td>1000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td colspan="3">합계</td> <td>1500</td>
+            </tfoot>
+        </table>  
+
     </body>    
 </html>
