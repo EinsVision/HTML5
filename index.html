@@ -11,12 +11,17 @@
     
     <body> <!-- 문서 본문 -->
         <!-- 하이퍼텍스트와 속성 -->
-        <h1><a href="index.html">Hello HTML</a> (<a href="https://ko.wikipedia.org/wiki/HTML" target="_blank" title="HTML window">HTML</a>)</h1>
+        <header>
+            <h1><a href="index.html">Hello HTML</a> (<a href="https://ko.wikipedia.org/wiki/HTML" target="_blank" title="HTML window">HTML</a>)</h1>
+        </header>
+        
+        <article>
+            Market Place 단축키: <strong>ctrl+shift+x</strong><br>
     
-        Market Place 단축키: <strong>ctrl+shift+x</strong><br>
-    
-        .html 파일에서 <strong>ALT + B</strong>단축키를 사용하여 웹페이지를 실행
-    
+            .html 파일에서 <strong>ALT + B</strong>단축키를 사용하여 웹페이지를 실행
+        
+        </article>
+        
         <!-- 테그의 중첩과 목록 -->
         <ul> <!-- ul tag로 grouping 할 수 있다. -->
             <li>HTML5</li>
@@ -24,13 +29,15 @@
             <li>Javascript</li>
             <li>JAVA</li>
         </ul>
-    
-        <ol> <!-- ol tag로 순서를 나타낼 수 있다. -->
-            <li><a href="1.html">기술소개</a></li>
-            <li><a href="2.html">기본문법</a></li>
-            <li><a href="3.html">하이퍼텍스트와 속성</a></li>
-            <li><a href="4.html">리스트와 테그의 중첩</a></li>
-        </ol>
+        <nav>
+            <ol> <!-- ol tag로 순서를 나타낼 수 있다. -->
+                <li><a href="1.html">기술소개</a></li>
+                <li><a href="2.html">기본문법</a></li>
+                <li><a href="3.html">하이퍼텍스트와 속성</a></li>
+                <li><a href="4.html">리스트와 테그의 중첩</a></li>
+            </ol>
+        </nav>
+        
         <!-- 사용자가 입력한 정보를 서버로 전송하는 기능을 구현함 id & pwd -->
         <form action="http://localhost/login.php">
             <p>아이디:   <input type="text" name="id" value="id"></p>
@@ -66,5 +73,10 @@
 
             <input type="submit">
         </form>
+        <footer>
+            <li>
+                <a href="a.html"> 개인보호정책</a>
+            </li>
+        </footer>
     </body>    
 </html>
