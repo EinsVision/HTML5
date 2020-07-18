@@ -31,5 +31,17 @@
         <h2>하이퍼텍스트와 속성</h2>
         하이퍼텍트 a를 사용합니다.<br>
         <img src="mt.png" width="640" height="320" alt="산 이미지" title="산 이미지">
+        <form action="http://localhost/method.php" method="POST">
+        <!-- method: post 방식은 url을 통해 전송하지 않는 방식이다. -->    
+            <p>
+                <h3>ID: </h3>
+                <input type="text" name="id">
+            </p>
+            <p>
+                <h3>Password:</h3>
+                <input type="password" name="pwd">
+            </p>
+            <input type="submit" value="login">
+        </form>
     </body>    
 </html>
